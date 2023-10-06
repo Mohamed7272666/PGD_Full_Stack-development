@@ -13,6 +13,13 @@
         padding: 0px;
         border: 10px;
       }
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid chartreuse;
+        color: gold;
+      }
       .background {
         padding-top: 80px;
         margin-top: 10px;
@@ -24,13 +31,14 @@
         margin-top: 30px;
       }
       .picture {
-        width: 150px;
-        border-radius: 75px;
+        width: 300px;
+        border-radius: 150px;
         float: left;
         margin-right: 20px;
       }
       .heading {
         font-weight: bold;
+        padding-top: 20px;
         color: rgb(6, 188, 248);
         font-family: sans-serif;
       }
@@ -50,16 +58,17 @@
       }
       .images {
         border-radius: 10px;
-        height: 50%;
-        width: 50%;
+        height: 49.5%;
+        width: 49.5%;
         float: left;
-        padding-top: 0;
+        padding: 3px;
       }
       .images2 {
         border-radius: 10px;
-        height: 50%;
-        width: 50%;
+        height: 49.5%;
+        width: 49.5%;
         float: right;
+        padding: 3px;
       }
 
       .footer {
@@ -74,14 +83,14 @@
         font-weight: bold;
         font-family: sans-serif;
         color: gold;
-        margin-top: 20px;
+        padding-top: 20px;
       }
 
       .button {
         background-color: rgb(255, 180, 7);
         border-radius: 2%;
         float: right;
-        margin-top: 30px;
+        margin-top: 8px;
         margin-right: 5px;
       }
     </style>
@@ -89,24 +98,45 @@
   <body>
     <img class="picture" src="me.JPG" alt="" />
     <div class="main_heading">
-      <h1>Hi, my name is Mohamed Jama Duale</h1>
+      <h1>Hi, my name is Mohamed Jama</h1>
     </div>
     <img class="my_image" src="un.JPG" alt="" />
     <div class="background">
       <h2 class="heading"><u>My Background</u></h2>
       <p class="paragraph">
-        I graduated from East Africa University- Bosaso in 2018 <br />
+        I graduated from East Africa University-Bosaso in 2018 <br />
         After that i get in to the industry working as IT Support in Fuel
-        Station in Garowe<br />
+        Station in Somalia<br />
         There I provided IT support , helped in Data entry, and maintained the
         digital filing system <br />
-        After that i was working as ICT officer for the Ministry of Health in
-        Puntland that i provided <br />
+        After that i was working as ICT officer for Company that i provided
+        <br />
         IT support such building the ministry website,installing vedio
         conference system,<br />
         finger printer system for the attendance of the staff and much more
       </p>
     </div>
+    <table>
+      <tr>
+        <h2 class="heading"><u>Education</u></h2>
+        <th>No</th>
+        <th>Institution Name</th>
+        <th>Garduation Date</th>
+        <th>Type</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>East Africa University</td>
+        <td>2018</td>
+        <td>University</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Bosaso Secondary School</td>
+        <td>2015</td>
+        <td>High School</td>
+      </tr>
+    </table>
     <div>
       <h2 class="heading"><u>My Hobbies</u></h2>
       <b class="paragraph">I have many hobbies but i'd take some of them: </b>
@@ -130,12 +160,11 @@
     <div class="multiple">
       <h2 class="heading"><u>Beutiful Images</u></h2>
       <img class="images" src="commitment.jpg" alt="" />
-      <img class="images" src="practice.jpg" alt="" />
+      <img class="images2" src="practice.jpg" alt="" />
     </div>
     <div>
+      <img class="images" src="failure.jpg" alt="" />
       <img class="images2" src="success.jpeg" alt="" />
-
-      <img class="images2" src="failure.jpg" alt="" />
     </div>
     <div>
       <footer class="footer">
